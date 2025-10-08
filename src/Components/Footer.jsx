@@ -3,8 +3,8 @@ import logo from '../assets/logo.png'
 
 const Footer = () => {
     return (
-      <div className="bg-base-300">
-        <footer className="footer sm:footer-horizontal bg-base-300 text-base-content p-10 max-w-[1320px] mx-auto">
+      <div className="bg-black">
+        <footer className="footer sm:footer-horizontal text-white p-10 max-w-[1320px] mx-auto">
           <nav className="flex gap-3 items-center">
             <img src={logo} className="w-10 h-10" alt="coming soon.." />
             <h2 className="font-semibold text-2xl">HERO.IO</h2>
@@ -54,8 +54,8 @@ const Footer = () => {
             </div>
           </nav>
         </footer>
-        <div className="border border-dashed max-w-[1280px] mx-auto text-gray-400"></div>
-        <aside className="text-center bg-base-300 text-base-content p-4 max-w-[1280px] mx-auto">
+        <div className="border border-dashed max-w-[1280px] mx-auto text-gray-100"></div>
+        <aside className="text-center bg-black text-white p-4 max-w-[1280px] mx-auto">
           <p>
             Copyright © {new Date().getFullYear()} - All right reserved by ACME
             Industries Ltd

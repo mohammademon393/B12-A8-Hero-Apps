@@ -3,10 +3,11 @@ import Banner from '../Components/Banner';
 
 const Home = () => {
     
+    
     return (
-        <div className='max-w-[1280px] mx-auto'>
-            <Banner></Banner>
-        </div>
+      <div className=" bg-gray-100">
+        <Banner></Banner>
+      </div>
     );
 };
 
