@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../assets/logo.png';
 import { Link, NavLink } from 'react-router';
 import { House } from 'lucide-react';
+import { FaAppStore, FaAppStoreIos, FaDownload, FaGithub, FaHome } from 'react-icons/fa';
 
 const Navbar = () => {
     return (
@@ -53,29 +54,41 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <Link to={"/"} className="flex gap-2 items-center text-xl">
+            <Link
+              to={"/"}
+              className="flex gap-2 font-bold items-center text-xl"
+            >
               <img className="w-10 h-10" src={logo} alt="" />
               HERO.IO
             </Link>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
-              <li className='font-semibold text-[16px]'>
+              <li className="font-[500] text-[16px]">
                 <NavLink to={"/"}>
-                    <House className='w-[20px] mr-[-5px]'></House>
-                    Home
+                  <FaHome className="w-[20px] mr-[-5px]"></FaHome>
+                  Home
                 </NavLink>
               </li>
-              <li>
-                <NavLink to={"/apps"}>Apps</NavLink>
+              <li className="font-[500] text-[16px]">
+                <NavLink to={"/apps"}>
+                  <FaAppStoreIos className="w-[20px] mr-[-5px]"></FaAppStoreIos>
+                  Apps
+                </NavLink>
               </li>
-              <li>
-                <NavLink to={"/install"}>Install</NavLink>
+              <li className="font-[500] text-[16px]">
+                <NavLink to={"/install"}>
+                  <FaDownload className="w-[20px] mr-[-5px]"></FaDownload>
+                  Install
+                </NavLink>
               </li>
             </ul>
           </div>
           <div className="navbar-end">
-            <a className="btn">Button</a>
+            <a className="rounded-md bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] btn text-white">
+              <FaGithub></FaGithub>
+              Contribute
+            </a>
           </div>
         </div>
       </div>
