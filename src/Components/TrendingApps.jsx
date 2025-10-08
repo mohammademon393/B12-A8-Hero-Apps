@@ -13,7 +13,7 @@ const TrendingApps = ({ apps }) => {
           <h2 className="card-title">{title}</h2>
           <div className="flex justify-between">
             <div className="badge badge-success text-[16px]">
-                <FaArrowDown></FaArrowDown> {downloads}</div>
+                <FaArrowDown></FaArrowDown>{downloads}M</div>
             <div className="badge badge-warning text-[16px]"> <FaRegStar></FaRegStar> {ratingAvg}</div>
           </div>
         </div>

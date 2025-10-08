@@ -12,7 +12,7 @@ const Home = () => {
       <div className=" bg-gray-100">
         <Banner></Banner>
         <div className="mt-10">
-          <h2 className="font-bold text-3xl text-center">Trending Apps</h2>
+          <h2 className="font-bold text-[42px] text-center">Trending Apps</h2>
           <p className="text-[#627382] text-center">
             Explore All Trending Apps on the Market developed by us
           </p>
@@ -21,8 +21,8 @@ const Home = () => {
               <TrendingApps key={apps.id} apps={apps}></TrendingApps>
             ))}
           </div>
-          <div className='flex justify-center'>
-            <Link to={'/apps'} className="btn btn-primary mb-5 text-center">
+          <div className="flex justify-center">
+            <Link to={"/apps"} className="btn btn-primary mb-5 text-center">
               Show All Apps
             </Link>
           </div>

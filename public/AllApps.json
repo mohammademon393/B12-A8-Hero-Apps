@@ -1,46 +1,13 @@
 [
     {
-        "image": "https://i.ibb.co.com/YBXtnP6G/YouTube.jpg",
-        "title": "YouTube",
-        "companyName": "Google LLC",
-        "id": 9,
-        "description": "Watch, upload, and share videos from creators around the world.",
-        "size": 180,
-        "reviews": 20000000,
-        "ratingAvg": 4.6,
-        "downloads": 10,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 250000
-            },
-            {
-                "name": "2 star",
-                "count": 400000
-            },
-            {
-                "name": "3 star",
-                "count": 1000000
-            },
-            {
-                "name": "4 star",
-                "count": 3500000
-            },
-            {
-                "name": "5 star",
-                "count": 14800000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/JtFLgZ2/WhatsApp.jpg",
-        "title": "WhatsApp Messenger",
-        "companyName": "Meta Platforms, Inc.",
-        "id": 10,
-        "description": "Fast, simple, secure messaging and calling for free worldwide.",
-        "size": 120,
-        "reviews": 18000000,
-        "ratingAvg": 4.7,
+        "image": "https://i.ibb.co.com/BHLrvJHQ/Spotify-Music.jpg",
+        "title": "Spotify Music",
+        "companyName": "Spotify AB",
+        "id": 1,
+        "description": "Spotify Music is one of the world’s leading audio streaming platforms that offers millions of songs, albums, and podcasts from artists around the globe. It lets you explore diverse genres, build playlists, and listen to music that fits every mood or activity. Spotify’s smart algorithm learns your taste and provides daily mixes and weekly discoveries. You can download your favorite songs for offline listening, follow artists, and share your playlists with friends. From morning motivation to late-night relaxation, Spotify ensures you always have the perfect soundtrack wherever you go.",
+        "size": 48,
+        "reviews": 15200000,
+        "ratingAvg": 4.5,
         "downloads": 10,
         "ratings": [
             {
@@ -53,325 +20,28 @@
             },
             {
                 "name": "3 star",
-                "count": 800000
-            },
-            {
-                "name": "4 star",
-                "count": 3000000
-            },
-            {
-                "name": "5 star",
-                "count": 13700000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/YtWRcMj/Facebook.jpg",
-        "title": "Facebook",
-        "companyName": "Meta Platforms, Inc.",
-        "id": 11,
-        "description": "Connect with friends, share updates, and join communities worldwide.",
-        "size": 190,
-        "reviews": 15000000,
-        "ratingAvg": 4.3,
-        "downloads": 10,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 400000
-            },
-            {
-                "name": "2 star",
-                "count": 600000
-            },
-            {
-                "name": "3 star",
-                "count": 1000000
-            },
-            {
-                "name": "4 star",
-                "count": 2500000
-            },
-            {
-                "name": "5 star",
-                "count": 10500000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/YDs7KvL/Gmail.jpg",
-        "title": "Gmail",
-        "companyName": "Google LLC",
-        "id": 12,
-        "description": "Email made easy, secure, and organized with Google’s official app.",
-        "size": 90,
-        "reviews": 8000000,
-        "ratingAvg": 4.6,
-        "downloads": 9,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 100000
-            },
-            {
-                "name": "2 star",
-                "count": 150000
-            },
-            {
-                "name": "3 star",
-                "count": 300000
-            },
-            {
-                "name": "4 star",
-                "count": 2000000
-            },
-            {
-                "name": "5 star",
-                "count": 5450000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/znGRrw8/Telegram.jpg",
-        "title": "Telegram",
-        "companyName": "Telegram FZ-LLC",
-        "id": 13,
-        "description": "Fast, secure messaging app with powerful group and channel features.",
-        "size": 70,
-        "reviews": 6400000,
-        "ratingAvg": 4.8,
-        "downloads": 8,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 90000
-            },
-            {
-                "name": "2 star",
-                "count": 130000
-            },
-            {
-                "name": "3 star",
-                "count": 250000
-            },
-            {
-                "name": "4 star",
-                "count": 1000000
-            },
-            {
-                "name": "5 star",
-                "count": 4920000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/mCjnbwr/LinkedIn.jpg",
-        "title": "LinkedIn",
-        "companyName": "LinkedIn Corporation",
-        "id": 14,
-        "description": "Network with professionals, apply for jobs, and build your career profile.",
-        "size": 145,
-        "reviews": 4200000,
-        "ratingAvg": 4.4,
-        "downloads": 7,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 150000
-            },
-            {
-                "name": "2 star",
-                "count": 200000
-            },
-            {
-                "name": "3 star",
-                "count": 400000
-            },
-            {
-                "name": "4 star",
-                "count": 1000000
-            },
-            {
-                "name": "5 star",
-                "count": 2450000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/XStMCbg/Zoom.jpg",
-        "title": "Zoom Meetings",
-        "companyName": "Zoom Video Communications, Inc.",
-        "id": 15,
-        "description": "Video conferencing made simple and reliable for meetings and classes.",
-        "size": 95,
-        "reviews": 5000000,
-        "ratingAvg": 4.5,
-        "downloads": 8,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 200000
-            },
-            {
-                "name": "2 star",
-                "count": 250000
-            },
-            {
-                "name": "3 star",
-                "count": 400000
-            },
-            {
-                "name": "4 star",
-                "count": 1000000
-            },
-            {
-                "name": "5 star",
-                "count": 3150000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/xLYfbh3/Spotify-Kids.jpg",
-        "title": "Spotify Kids",
-        "companyName": "Spotify AB",
-        "id": 16,
-        "description": "A fun, safe music app for kids with curated songs and playlists.",
-        "size": 60,
-        "reviews": 1200000,
-        "ratingAvg": 4.7,
-        "downloads": 6,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 20000
-            },
-            {
-                "name": "2 star",
-                "count": 40000
-            },
-            {
-                "name": "3 star",
-                "count": 80000
-            },
-            {
-                "name": "4 star",
-                "count": 250000
-            },
-            {
-                "name": "5 star",
-                "count": 830000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/S6Lbpfv/CapCut.jpg",
-        "title": "CapCut",
-        "companyName": "Bytedance Pte. Ltd.",
-        "id": 17,
-        "description": "Create and edit stunning videos easily with effects, filters, and AI tools.",
-        "size": 180,
-        "reviews": 9600000,
-        "ratingAvg": 4.6,
-        "downloads": 9,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 150000
-            },
-            {
-                "name": "2 star",
-                "count": 300000
-            },
-            {
-                "name": "3 star",
-                "count": 800000
-            },
-            {
-                "name": "4 star",
-                "count": 2000000
-            },
-            {
-                "name": "5 star",
-                "count": 6350000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/TrfwksS/Airbnb.jpg",
-        "title": "Airbnb",
-        "companyName": "Airbnb, Inc.",
-        "id": 18,
-        "description": "Find unique places to stay and experiences around the world.",
-        "size": 160,
-        "reviews": 4000000,
-        "ratingAvg": 4.7,
-        "downloads": 7,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 80000
-            },
-            {
-                "name": "2 star",
-                "count": 100000
-            },
-            {
-                "name": "3 star",
-                "count": 300000
-            },
-            {
-                "name": "4 star",
                 "count": 900000
             },
             {
-                "name": "5 star",
-                "count": 2620000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/kx2R5nW/Reddit.jpg",
-        "title": "Reddit",
-        "companyName": "Reddit Inc.",
-        "id": 19,
-        "description": "Join communities, discuss interests, and explore trending topics.",
-        "size": 130,
-        "reviews": 3500000,
-        "ratingAvg": 4.5,
-        "downloads": 6,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 120000
-            },
-            {
-                "name": "2 star",
-                "count": 180000
-            },
-            {
-                "name": "3 star",
-                "count": 300000
-            },
-            {
                 "name": "4 star",
-                "count": 800000
+                "count": 3200000
             },
             {
                 "name": "5 star",
-                "count": 2100000
+                "count": 10700000
             }
         ]
     },
     {
-        "image": "https://i.ibb.co.com/NZZVgsT/X.jpg",
-        "title": "X (Twitter)",
-        "companyName": "X Corp.",
-        "id": 20,
-        "description": "Stay updated with real-time news, topics, and global conversations.",
-        "size": 170,
-        "reviews": 8900000,
-        "ratingAvg": 4.2,
-        "downloads": 8,
+        "image": "https://i.ibb.co.com/Xkvf1yV3/TikTok.jpg",
+        "title": "TikTok",
+        "companyName": "ByteDance",
+        "id": 2,
+        "description": "TikTok is the world’s fastest-growing short video platform where creativity meets fun. Users can record, edit, and share 15 to 60-second videos enhanced with background music, filters, and special effects. The app’s personalized feed is powered by a smart algorithm that learns what you love watching. Whether you’re exploring dance trends, funny skits, or lifestyle hacks, TikTok connects creators and audiences like never before. Go live, interact with fans, or collaborate with others — TikTok is the stage for your imagination.",
+        "size": 60,
+        "reviews": 20000000,
+        "ratingAvg": 4.4,
+        "downloads": 20,
         "ratings": [
             {
                 "name": "1 star",
@@ -379,246 +49,48 @@
             },
             {
                 "name": "2 star",
-                "count": 600000
-            },
-            {
-                "name": "3 star",
-                "count": 1000000
-            },
-            {
-                "name": "4 star",
-                "count": 2200000
-            },
-            {
-                "name": "5 star",
-                "count": 4700000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/6bC1Yzz/Discord.jpg",
-        "title": "Discord",
-        "companyName": "Discord Inc.",
-        "id": 21,
-        "description": "Chat, voice, and video platform for gamers and communities.",
-        "size": 130,
-        "reviews": 5100000,
-        "ratingAvg": 4.7,
-        "downloads": 8,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 100000
-            },
-            {
-                "name": "2 star",
-                "count": 150000
-            },
-            {
-                "name": "3 star",
-                "count": 300000
-            },
-            {
-                "name": "4 star",
-                "count": 1100000
-            },
-            {
-                "name": "5 star",
-                "count": 3450000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/tZCWGJ7/Spotify-Podcast.jpg",
-        "title": "Spotify Podcasts",
-        "companyName": "Spotify AB",
-        "id": 22,
-        "description": "Discover and listen to your favorite podcasts and creators.",
-        "size": 70,
-        "reviews": 2500000,
-        "ratingAvg": 4.6,
-        "downloads": 7,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 50000
-            },
-            {
-                "name": "2 star",
-                "count": 80000
-            },
-            {
-                "name": "3 star",
-                "count": 150000
-            },
-            {
-                "name": "4 star",
-                "count": 600000
-            },
-            {
-                "name": "5 star",
-                "count": 1620000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/N38nwdc/Uber.jpg",
-        "title": "Uber",
-        "companyName": "Uber Technologies, Inc.",
-        "id": 23,
-        "description": "Get rides, food delivery, and travel options all in one app.",
-        "size": 190,
-        "reviews": 9800000,
-        "ratingAvg": 4.5,
-        "downloads": 9,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 250000
-            },
-            {
-                "name": "2 star",
-                "count": 400000
-            },
-            {
-                "name": "3 star",
-                "count": 800000
-            },
-            {
-                "name": "4 star",
-                "count": 2100000
-            },
-            {
-                "name": "5 star",
-                "count": 6250000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/SnK1T8k/Pinterest.jpg",
-        "title": "Pinterest",
-        "companyName": "Pinterest, Inc.",
-        "id": 24,
-        "description": "Discover ideas for recipes, home design, fashion, and more.",
-        "size": 150,
-        "reviews": 4200000,
-        "ratingAvg": 4.8,
-        "downloads": 7,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 60000
-            },
-            {
-                "name": "2 star",
-                "count": 90000
-            },
-            {
-                "name": "3 star",
-                "count": 200000
-            },
-            {
-                "name": "4 star",
-                "count": 700000
-            },
-            {
-                "name": "5 star",
-                "count": 3150000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/X2sLPGz/Notion.jpg",
-        "title": "Notion",
-        "companyName": "Notion Labs, Inc.",
-        "id": 25,
-        "description": "All-in-one workspace for notes, tasks, wikis, and databases.",
-        "size": 120,
-        "reviews": 2800000,
-        "ratingAvg": 4.8,
-        "downloads": 6,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 30000
-            },
-            {
-                "name": "2 star",
-                "count": 60000
-            },
-            {
-                "name": "3 star",
-                "count": 100000
-            },
-            {
-                "name": "4 star",
                 "count": 500000
             },
             {
+                "name": "3 star",
+                "count": 1000000
+            },
+            {
+                "name": "4 star",
+                "count": 5000000
+            },
+            {
                 "name": "5 star",
-                "count": 2100000
+                "count": 13100000
             }
         ]
     },
     {
-        "image": "https://i.ibb.co.com/VW5Qvwx/PayPal.jpg",
-        "title": "PayPal",
-        "companyName": "PayPal Holdings, Inc.",
-        "id": 26,
-        "description": "Send money, pay online, and manage transactions securely.",
-        "size": 110,
-        "reviews": 5000000,
-        "ratingAvg": 4.6,
-        "downloads": 8,
+        "image": "https://i.ibb.co.com/BfDKv91/Instagram.jpg",
+        "title": "Instagram",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 3,
+        "description": "Instagram is the go-to social media platform for sharing photos, videos, and stories. With Reels, IGTV, and Live features, it lets you express your creativity in countless ways. Connect with friends, follow celebrities, or explore trending content through the Discover tab. Instagram is also a hub for influencers and businesses to promote brands and reach a global audience. Its clean design, powerful messaging features, and creative tools make it more than an app — it’s your digital lifestyle companion.",
+        "size": 85,
+        "reviews": 18000000,
+        "ratingAvg": 4.3,
+        "downloads": 25,
         "ratings": [
             {
                 "name": "1 star",
-                "count": 120000
+                "count": 500000
             },
             {
                 "name": "2 star",
-                "count": 160000
+                "count": 700000
             },
             {
                 "name": "3 star",
-                "count": 250000
+                "count": 1200000
             },
             {
                 "name": "4 star",
-                "count": 900000
-            },
-            {
-                "name": "5 star",
-                "count": 3570000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/Nm7kgjs/Amazon.jpg",
-        "title": "Amazon Shopping",
-        "companyName": "Amazon Mobile LLC",
-        "id": 27,
-        "description": "Shop millions of products and track your orders with ease.",
-        "size": 175,
-        "reviews": 16000000,
-        "ratingAvg": 4.7,
-        "downloads": 10,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 300000
-            },
-            {
-                "name": "2 star",
-                "count": 400000
-            },
-            {
-                "name": "3 star",
-                "count": 900000
-            },
-            {
-                "name": "4 star",
-                "count": 2800000
+                "count": 4200000
             },
             {
                 "name": "5 star",
@@ -627,15 +99,477 @@
         ]
     },
     {
-        "image": "https://i.ibb.co.com/2gPM3Mf/Google-Drive.jpg",
-        "title": "Google Drive",
+        "image": "https://i.ibb.co.com/vC7ZqWqk/Facebook.jpg",
+        "title": "Facebook",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 4,
+        "description": "Facebook connects billions of people worldwide through posts, stories, and communities. Share life moments, photos, and ideas with family and friends. You can join groups, follow pages, and explore trending videos through Facebook Watch. The integrated Marketplace lets you buy and sell items locally, while Facebook Events help organize meetups and celebrations. With Messenger integration, Facebook is more than a social app — it’s a complete ecosystem for communication, connection, and discovery.",
+        "size": 92,
+        "reviews": 22000000,
+        "ratingAvg": 4.1,
+        "downloads": 50,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 800000
+            },
+            {
+                "name": "2 star",
+                "count": 1000000
+            },
+            {
+                "name": "3 star",
+                "count": 2000000
+            },
+            {
+                "name": "4 star",
+                "count": 6000000
+            },
+            {
+                "name": "5 star",
+                "count": 12200000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/0RLqs2vP/WhatsApp.webp",
+        "title": "WhatsApp Messenger",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 5,
+        "description": "WhatsApp Messenger is a free messaging app that allows you to send text, voice, and video messages instantly. With end-to-end encryption, your conversations remain private and secure. You can create group chats, share media files, and make high-quality voice or video calls anywhere in the world. WhatsApp Web also allows you to continue chats from your computer. Its reliability, simplicity, and privacy make it one of the most trusted communication tools globally.",
+        "size": 40,
+        "reviews": 19000000,
+        "ratingAvg": 4.6,
+        "downloads": 50,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 200000
+            },
+            {
+                "name": "2 star",
+                "count": 300000
+            },
+            {
+                "name": "3 star",
+                "count": 700000
+            },
+            {
+                "name": "4 star",
+                "count": 4000000
+            },
+            {
+                "name": "5 star",
+                "count": 14000000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/0VjKgcmm/YouTube.jpg",
+        "title": "YouTube",
         "companyName": "Google LLC",
-        "id": 28,
-        "description": "Store, access, and share your files securely in the cloud.",
-        "size": 120,
-        "reviews": 8900000,
+        "id": 6,
+        "description": "YouTube is the world’s largest video-sharing platform where billions of people watch, upload, and share content every day. From music videos and vlogs to tutorials and live streams, YouTube covers every topic imaginable. Subscribe to your favorite channels, leave comments, and explore trending content. With YouTube Premium, enjoy ad-free viewing and offline playback. It’s not just entertainment — it’s a platform for learning, creativity, and global connection.",
+        "size": 95,
+        "reviews": 25000000,
+        "ratingAvg": 4.7,
+        "downloads": 100,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 300000
+            },
+            {
+                "name": "2 star",
+                "count": 400000
+            },
+            {
+                "name": "3 star",
+                "count": 1000000
+            },
+            {
+                "name": "4 star",
+                "count": 6000000
+            },
+            {
+                "name": "5 star",
+                "count": 17300000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/mFvPjyxv/Gmail.jpg",
+        "title": "Gmail",
+        "companyName": "Google LLC",
+        "id": 7,
+        "description": "Gmail is a secure and efficient email platform designed to help you communicate and stay organized. It features smart inbox sorting, spam filtering, and real-time notifications. With integrated Google Meet and Chat, you can collaborate seamlessly with colleagues and friends. Gmail also offers generous storage and powerful search tools to find any message quickly. Whether for work or personal use, Gmail keeps your communication fast, simple, and safe.",
+        "size": 35,
+        "reviews": 12000000,
+        "ratingAvg": 4.4,
+        "downloads": 90,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 150000
+            },
+            {
+                "name": "2 star",
+                "count": 250000
+            },
+            {
+                "name": "3 star",
+                "count": 800000
+            },
+            {
+                "name": "4 star",
+                "count": 3200000
+            },
+            {
+                "name": "5 star",
+                "count": 7500000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/TqxhDtZ8/Telegram.png",
+        "title": "Telegram",
+        "companyName": "Telegram FZ-LLC",
+        "id": 8,
+        "description": "Telegram is a cloud-based instant messaging app that emphasizes speed and security. It supports large group chats, file sharing up to 2GB, and secret chats with self-destruct timers. Telegram’s sleek design and customizable interface make it a favorite among tech users. With bots, channels, and cross-platform sync, it’s not just a messenger — it’s a complete social ecosystem built around privacy and innovation.",
+        "size": 70,
+        "reviews": 9000000,
+        "ratingAvg": 4.5,
+        "downloads": 25,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 120000
+            },
+            {
+                "name": "2 star",
+                "count": 200000
+            },
+            {
+                "name": "3 star",
+                "count": 500000
+            },
+            {
+                "name": "4 star",
+                "count": 2300000
+            },
+            {
+                "name": "5 star",
+                "count": 5900000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/Q9D9Nfy/Netflix.jpg",
+        "title": "Netflix",
+        "companyName": "Netflix, Inc.",
+        "id": 9,
+        "description": "Netflix is a global streaming service offering thousands of movies, TV shows, and original series in high-definition. Whether you love action, romance, documentaries, or anime, Netflix has something for every taste. You can download episodes for offline watching and enjoy personalized recommendations. Its adaptive streaming ensures smooth playback even with slow internet. With multi-profile support, everyone in your family gets a personalized experience.",
+        "size": 110,
+        "reviews": 15000000,
+        "ratingAvg": 4.6,
+        "downloads": 50,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 300000
+            },
+            {
+                "name": "2 star",
+                "count": 400000
+            },
+            {
+                "name": "3 star",
+                "count": 700000
+            },
+            {
+                "name": "4 star",
+                "count": 4000000
+            },
+            {
+                "name": "5 star",
+                "count": 9600000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/KpqrRmdP/Snapchat.jpg",
+        "title": "Snapchat",
+        "companyName": "Snap Inc.",
+        "id": 10,
+        "description": "Snapchat is a fast and fun messaging app that lets you share moments instantly with friends through snaps and stories. Capture photos, add filters, and chat with creative Bitmojis. Its disappearing message system keeps conversations light and private. Discover trending news, shows, and AR lenses that turn everyday life into an adventure. Snapchat’s focus on privacy and creativity makes it a favorite among the youth generation.",
+        "size": 75,
+        "reviews": 8000000,
+        "ratingAvg": 4.3,
+        "downloads": 20,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 100000
+            },
+            {
+                "name": "2 star",
+                "count": 200000
+            },
+            {
+                "name": "3 star",
+                "count": 400000
+            },
+            {
+                "name": "4 star",
+                "count": 2000000
+            },
+            {
+                "name": "5 star",
+                "count": 5300000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/zTvftynG/Canva.jpg",
+        "title": "Canva",
+        "companyName": "Canva Pty Ltd",
+        "id": 11,
+        "description": "Canva is a powerful online design tool that allows anyone to create stunning visuals with ease. From social media posts and presentations to posters and business cards, Canva provides thousands of templates to choose from. The drag-and-drop interface makes designing effortless, even for beginners. You can collaborate with team members, upload your brand assets, and export your designs in multiple formats. With Canva Pro, you unlock advanced tools like background remover and brand kits for professional branding.",
+        "size": 165,
+        "reviews": 5200000,
         "ratingAvg": 4.8,
-        "downloads": 10,
+        "downloads": 35,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 80000
+            },
+            {
+                "name": "2 star",
+                "count": 130000
+            },
+            {
+                "name": "3 star",
+                "count": 300000
+            },
+            {
+                "name": "4 star",
+                "count": 1200000
+            },
+            {
+                "name": "5 star",
+                "count": 3500000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/n5R46Pw/Duolingo.webp",
+        "title": "Duolingo",
+        "companyName": "Duolingo Inc.",
+        "id": 12,
+        "description": "Duolingo makes language learning fun and addictive. Through interactive lessons, challenges, and rewards, it helps users learn over 30 languages including Spanish, French, German, and Japanese. Its gamified structure keeps you motivated, while smart AI adapts the lessons to your skill level. You can track your daily progress, compete with friends, and earn streaks for consistency. Duolingo’s mascot Duo ensures you stay on track in your journey to mastering a new language.",
+        "size": 35,
+        "reviews": 14200000,
+        "ratingAvg": 4.7,
+        "downloads": 45,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 250000
+            },
+            {
+                "name": "2 star",
+                "count": 350000
+            },
+            {
+                "name": "3 star",
+                "count": 800000
+            },
+            {
+                "name": "4 star",
+                "count": 2200000
+            },
+            {
+                "name": "5 star",
+                "count": 10600000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/4gSpfn7t/Google-Maps.jpg",
+        "title": "Google Maps",
+        "companyName": "Google LLC",
+        "id": 13,
+        "description": "Google Maps is your ultimate navigation companion, offering detailed maps, real-time traffic updates, and turn-by-turn navigation. Whether you’re walking, driving, or using public transport, it provides accurate routes and estimated travel times. Users can explore restaurants, gas stations, landmarks, and nearby attractions. Street View and satellite imagery make virtual exploration easy. With offline maps, reviews, and local business info, Google Maps is essential for travelers and locals alike.",
+        "size": 180,
+        "reviews": 8700000,
+        "ratingAvg": 4.7,
+        "downloads": 60,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 150000
+            },
+            {
+                "name": "2 star",
+                "count": 250000
+            },
+            {
+                "name": "3 star",
+                "count": 500000
+            },
+            {
+                "name": "4 star",
+                "count": 2000000
+            },
+            {
+                "name": "5 star",
+                "count": 5800000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/LXDFfjbh/capcut.jpg",
+        "title": "CapCut",
+        "companyName": "Bytedance Pte. Ltd.",
+        "id": 14,
+        "description": "CapCut is a free all-in-one video editing app that makes it easy to create stunning videos. It offers advanced features like multi-layer editing, filters, slow motion, and auto captions. With trending templates, users can create professional-quality edits in minutes. CapCut supports HD export, background music, and seamless sharing to TikTok or Instagram. Whether you’re a beginner or pro, CapCut gives you everything needed to make cinematic content right on your phone.",
+        "size": 150,
+        "reviews": 7200000,
+        "ratingAvg": 4.6,
+        "downloads": 30,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 100000
+            },
+            {
+                "name": "2 star",
+                "count": 150000
+            },
+            {
+                "name": "3 star",
+                "count": 300000
+            },
+            {
+                "name": "4 star",
+                "count": 1800000
+            },
+            {
+                "name": "5 star",
+                "count": 4800000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/PGBFjFhd/amazon.jpg",
+        "title": "Amazon Shopping",
+        "companyName": "Amazon Mobile LLC",
+        "id": 15,
+        "description": "Amazon Shopping offers millions of products across all categories, from electronics to clothing and groceries. Browse daily deals, compare prices, and enjoy one-click ordering with secure payments. Track your orders in real time and get personalized recommendations based on your shopping history. Amazon Prime members can enjoy fast delivery, exclusive offers, and access to Prime Video. The app’s sleek interface and 24/7 customer support make online shopping effortless.",
+        "size": 80,
+        "reviews": 11200000,
+        "ratingAvg": 4.5,
+        "downloads": 85,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 200000
+            },
+            {
+                "name": "2 star",
+                "count": 300000
+            },
+            {
+                "name": "3 star",
+                "count": 800000
+            },
+            {
+                "name": "4 star",
+                "count": 3500000
+            },
+            {
+                "name": "5 star",
+                "count": 6900000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/MDsZxWkj/Snapseed2.jpg",
+        "title": "Snapseed",
+        "companyName": "Google LLC",
+        "id": 16,
+        "description": "Snapseed is a professional photo editing app designed by Google that brings DSLR-level editing tools to your phone. It includes over 29 filters and effects, such as healing, brush, HDR, and perspective. The selective adjust feature lets you fine-tune specific areas of a photo, while RAW editing supports professional workflows. Its clean interface and non-destructive editing make Snapseed perfect for photographers of all levels.",
+        "size": 25,
+        "reviews": 1700000,
+        "ratingAvg": 4.6,
+        "downloads": 15,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 40000
+            },
+            {
+                "name": "2 star",
+                "count": 70000
+            },
+            {
+                "name": "3 star",
+                "count": 150000
+            },
+            {
+                "name": "4 star",
+                "count": 350000
+            },
+            {
+                "name": "5 star",
+                "count": 1180000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/hFYYG1Ft/LinkedIn.jpg",
+        "title": "LinkedIn",
+        "companyName": "LinkedIn Corporation",
+        "id": 17,
+        "description": "LinkedIn is the world’s largest professional network connecting job seekers, recruiters, and professionals. Build your resume, showcase your skills, and apply to thousands of job opportunities worldwide. Stay updated with industry news, connect with colleagues, and grow your career with LinkedIn Learning. Businesses can also promote their brand, post jobs, and build strong professional communities — all in one platform.",
+        "size": 60,
+        "reviews": 4200000,
+        "ratingAvg": 4.4,
+        "downloads": 40,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 100000
+            },
+            {
+                "name": "2 star",
+                "count": 200000
+            },
+            {
+                "name": "3 star",
+                "count": 400000
+            },
+            {
+                "name": "4 star",
+                "count": 1200000
+            },
+            {
+                "name": "5 star",
+                "count": 2300000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/JWDpMpwL/Zoom.jpg",
+        "title": "Zoom Cloud Meetings",
+        "companyName": "Zoom Video Communications, Inc.",
+        "id": 18,
+        "description": "Zoom is a top-rated video conferencing platform used by millions of professionals and educators worldwide. It enables virtual meetings, webinars, and classrooms with high-quality audio and video. You can share screens, record sessions, and use breakout rooms for collaboration. Zoom’s cross-platform compatibility and reliability make remote communication smooth and productive — whether for work, study, or social gatherings.",
+        "size": 95,
+        "reviews": 6500000,
+        "ratingAvg": 4.5,
+        "downloads": 70,
         "ratings": [
             {
                 "name": "1 star",
@@ -651,11 +585,77 @@
             },
             {
                 "name": "4 star",
+                "count": 1900000
+            },
+            {
+                "name": "5 star",
+                "count": 3850000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/yB8NWnrk/Pinterest.jpg",
+        "title": "Pinterest",
+        "companyName": "Pinterest Inc.",
+        "id": 19,
+        "description": "Pinterest is a visual discovery engine where you can find inspiration for every project or interest. From home décor and fashion to recipes and travel ideas, it allows you to save and organize content on themed boards. Its recommendation system learns your taste and curates personalized ideas. Whether you’re planning a wedding, redecorating, or learning new DIY skills, Pinterest helps you turn creativity into reality.",
+        "size": 70,
+        "reviews": 7300000,
+        "ratingAvg": 4.6,
+        "downloads": 40,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 80000
+            },
+            {
+                "name": "2 star",
+                "count": 130000
+            },
+            {
+                "name": "3 star",
+                "count": 200000
+            },
+            {
+                "name": "4 star",
                 "count": 1800000
             },
             {
                 "name": "5 star",
-                "count": 6350000
+                "count": 5200000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/tMLdXqwX/Adobe-Lightroom.jpg",
+        "title": "Adobe Lightroom",
+        "companyName": "Adobe Inc.",
+        "id": 20,
+        "description": "Adobe Lightroom is a professional-grade photo editor that allows photographers to capture, edit, and share stunning images. It features advanced tools for exposure correction, color grading, and preset filters. You can sync your edits across mobile and desktop devices through Adobe Creative Cloud. Lightroom’s non-destructive editing workflow and intuitive sliders make it a must-have app for both hobbyists and professionals who demand perfection in every shot.",
+        "size": 120,
+        "reviews": 3600000,
+        "ratingAvg": 4.7,
+        "downloads": 30,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 60000
+            },
+            {
+                "name": "2 star",
+                "count": 100000
+            },
+            {
+                "name": "3 star",
+                "count": 200000
+            },
+            {
+                "name": "4 star",
+                "count": 1000000
+            },
+            {
+                "name": "5 star",
+                "count": 2240000
             }
         ]
     }
