@@ -1,11 +1,12 @@
 import React from 'react';
+import { createBrowserRouter } from "react-router";
+import Home from '../Pages/Home';
 
-const Routes = () => {
-    return (
-        <div>
-            <h1>routes</h1>
-        </div>
-    );
-};
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home></Home>,
+  },
+]);
 
-export default Routes;
+export default router;
