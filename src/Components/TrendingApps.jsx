@@ -1,12 +1,11 @@
 import React from 'react';
 import { FaArrowDown, FaRegStar } from 'react-icons/fa';
-import { FcRating } from 'react-icons/fc';
 
 const TrendingApps = ({ apps }) => {
     const { image, title, ratingAvg, downloads } = apps;
   return (
     <div className="max-w-[1280px] mx-auto">
-      <div className="card bg-base-100 shadow-sm ">
+      <div className="card bg-base-100 shadow-sm hover:scale-105  transition ease-in-out">
         <figure className="p-4">
           <img className="rounded-xl h-[220px]" src={image} />
         </figure>

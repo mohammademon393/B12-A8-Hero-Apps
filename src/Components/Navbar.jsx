@@ -66,19 +66,40 @@ const Navbar = () => {
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               <li className="font-[500] text-[16px]">
-                <NavLink to={"/"}>
+                <NavLink
+                  to={"/"}
+                  className={({ isActive }) =>
+                    isActive
+                      ? "text-purple-600 underline font-semibold"
+                      : "text-gray-600 hover:text-purple-600"
+                  }
+                >
                   <FaHome className="w-[20px] mr-[-5px]"></FaHome>
                   Home
                 </NavLink>
               </li>
               <li className="font-[500] text-[16px]">
-                <NavLink to={"/apps"}>
+                <NavLink
+                  to={"/apps"}
+                  className={({ isActive }) =>
+                    isActive
+                      ? "text-purple-600 underline font-semibold"
+                      : "text-gray-600 hover:text-purple-600"
+                  }
+                >
                   <FaAppStoreIos className="w-[20px] mr-[-5px]"></FaAppStoreIos>
                   Apps
                 </NavLink>
               </li>
               <li className="font-[500] text-[16px]">
-                <NavLink to={"/install"}>
+                <NavLink
+                  to={"/install"}
+                  className={({ isActive }) =>
+                    isActive
+                      ? "text-purple-600 underline font-semibold"
+                      : "text-gray-600 hover:text-purple-600"
+                  }
+                >
                   <FaDownload className="w-[20px] mr-[-5px]"></FaDownload>
                   Install
                 </NavLink>
