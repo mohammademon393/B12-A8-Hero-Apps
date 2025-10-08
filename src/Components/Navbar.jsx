@@ -35,22 +35,23 @@ const Navbar = () => {
                 tabIndex={0}
                 className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
               >
-                <li>
-                  <a>Item 1</a>
+                <li className="font-[500] text-[16px]">
+                  <NavLink to={"/"}>
+                    <FaHome className="w-[20px] mr-[-5px]"></FaHome>
+                    Home
+                  </NavLink>
                 </li>
-                <li>
-                  <a>Parent</a>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
-                  </ul>
+                <li className="font-[500] text-[16px]">
+                  <NavLink to={"/apps"}>
+                    <FaAppStoreIos className="w-[20px] mr-[-5px]"></FaAppStoreIos>
+                    Apps
+                  </NavLink>
                 </li>
-                <li>
-                  <a>Item 3</a>
+                <li className="font-[500] text-[16px]">
+                  <NavLink to={"/install"}>
+                    <FaDownload className="w-[20px] mr-[-5px]"></FaDownload>
+                    Install
+                  </NavLink>
                 </li>
               </ul>
             </div>
