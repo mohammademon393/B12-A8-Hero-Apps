@@ -2,9 +2,9 @@ import React from 'react';
 
 const Install = () => {
     return (
-        <div>
-            <h1>install</h1>
-        </div>
+      <div className="max-w-[1280px] mx-auto">
+        <h1>install</h1>
+      </div>
     );
 };
 

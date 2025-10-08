@@ -3,9 +3,9 @@ import React from 'react';
 const Apps = () => {
     
     return (
-        <div>
-            <h1>app</h1>
-        </div>
+      <div className="max-w-[1280px] mx-auto">
+        <h1>app</h1>
+      </div>
     );
 };
 
