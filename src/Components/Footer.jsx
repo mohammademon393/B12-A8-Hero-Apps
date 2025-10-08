@@ -54,7 +54,7 @@ const Footer = () => {
             </div>
           </nav>
         </footer>
-        <div className="border border-dashed max-w-[1280px] mx-auto text-gray-100"></div>
+        <div className="border border-dashed max-w-[1280px] mx-auto text-gray-400"></div>
         <aside className="text-center bg-black text-white p-4 max-w-[1280px] mx-auto">
           <p>
             Copyright © {new Date().getFullYear()} - All right reserved by ACME
