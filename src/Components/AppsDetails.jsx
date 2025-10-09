@@ -21,6 +21,25 @@ const AppsDetails = () => {
       size,
     } = app;
     
+
+    const handleInstall =()=> {
+      const exsitingList = JSON.parse(localStorage.getItem("install"));
+      let updatedList = [];
+      if (exsitingList) {
+        const isDublicat = exsitingList.some(a=> a.id === app.id)
+        if (isDublicat) {
+          alert('sorry vai')
+        }
+        updatedList = [...exsitingList, app]
+      }else{
+        updatedList.push(app)
+      }
+
+      localStorage.setItem("install", JSON.stringify(updatedList));
+      
+    }
+
+
     
     return (
       <div className="max-w-[1280px] mx-auto py-10">
@@ -59,7 +78,10 @@ const AppsDetails = () => {
                 <h1 className="font-extrabold text-[40px]">{reviews}M</h1>
               </span>
             </div>
-            <button className="bg-[#00d390] btn font-semibold text-[20px] text-white mt-4">
+            <button
+              onClick={handleInstall}
+              className="bg-[#00d390] btn font-semibold text-[20px] text-white mt-4"
+            >
               Install Now<span>({size})</span>MB
             </button>
           </div>
