@@ -5,7 +5,7 @@ const TrendingApps = ({ apps }) => {
     const { image, title, ratingAvg, downloads } = apps;
   return (
     <div className="max-w-[1280px] mx-auto">
-      <div className="card bg-base-100 shadow-sm hover:scale-105  transition ease-in-out">
+      <div className="card bg-base-100 w-[350px] md:w-[300px] shadow-sm hover:scale-105  transition ease-in-out">
         <figure className="p-4">
           <img className="rounded-xl h-[220px]" src={image} />
         </figure>

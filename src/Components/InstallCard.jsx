@@ -17,16 +17,16 @@ const InstallCard = ({ ins, setInstall }) => {
 
   return (
     <div className="max-w-[1280px] mx-auto md:mt-5 mt-4 px-4">
-      <div className="rounded-xl bg-base-100 shadow-sm h-[120px] mb-4 flex gap-4">
+      <div className="rounded-xl bg-base-100 shadow-sm h-[120px] mb-4 flex gap-4 overflow-hidden">
         <figure className="p-4">
           <img
-            className="min-w-[100px] h-[80px] rounded-xl"
+            className="w-[80px] md:min-w-[100px] h-[80px] rounded-xl"
             src={image}
             alt={title}
           />
         </figure>
         <div className="flex p-4">
-          <div className="justify-start">
+          <div className="justify-start ml-[-30px]">
             <h2 className="font-semibold text-xl">{title}</h2>
             <div className="flex gap-4">
               <div className="flex gap-4 mt-3">
@@ -49,13 +49,14 @@ const InstallCard = ({ ins, setInstall }) => {
               </div>
             </div>
           </div>
-          <div className="flex ml-[100px] items-center md:ml-[800px]">
-            <span>
-              <p className="font-bold text-[18px] mr-5">{size}MB</p>
-            </span>
+          <div className="md:flex justify-center ml-[100px] items-center md:ml-[800px] overflow-hidden">
+              <p className="font-semibold text-[18px] md:font-bold mr-2 md:mr-5">
+                {size}MB
+              </p>
+            
             <button
               onClick={() => removeInstall(ins.id)}
-              className="btn flex-1 bg-[#00d390] text-white"
+              className="btn justify-end bg-[#00d390] text-white"
             >
               Uninstall
             </button>
