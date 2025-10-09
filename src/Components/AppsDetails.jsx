@@ -3,6 +3,7 @@ import { useLoaderData, useParams } from 'react-router';
 import downloadImg from '../assets/icon-downloads.png';
 import reviweImg from '../assets/icon-review.png';
 import rating from '../assets/icon-ratings.png';
+import { toast } from 'react-toastify';
 
 const AppsDetails = () => {
     const data = useLoaderData();
@@ -28,7 +29,7 @@ const AppsDetails = () => {
       if (exsitingList) {
         const isDublicat = exsitingList.some(a=> a.id === app.id)
         if (isDublicat) {
-          alert('sorry vai')
+          toast('not allowed')
         }
         updatedList = [...exsitingList, app]
       }else{
@@ -39,11 +40,9 @@ const AppsDetails = () => {
       
     }
 
-
-    
     return (
-      <div className="max-w-[1280px] mx-auto py-10">
-        <div className="flex gap-10">
+      <div className="max-w-[1280px] mx-auto py-10 p-5">
+        <div className="md:flex gap-10">
           <div>
             <img
               className="w-[380px] h-[280px]"
