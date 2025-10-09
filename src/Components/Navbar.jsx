@@ -101,7 +101,7 @@ const Navbar = () => {
                   }
                 >
                   <FaDownload className="w-[20px] mr-[-5px]"></FaDownload>
-                  Install
+                  Installation
                 </NavLink>
               </li>
             </ul>
