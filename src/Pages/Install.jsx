@@ -3,6 +3,9 @@ import InstallCard from '../Components/InstallCard';
 
 const Install = () => {
   const [install, setInstall] = useState([]);
+  const [sortOrder, setSortOrder] = useState('none');
+
+
   useEffect(()=>{
     const savedList = JSON.parse(localStorage.getItem("install"));
     if (savedList) {
@@ -11,6 +14,15 @@ const Install = () => {
   },[]);
 
 
+  const sortedItem =()=>{
+    if (sortOrder === "size-asc") {
+      return [...install].sort((a, b) => a.size - b.size);
+    }else if (sortOrder === "size-dsc") {
+      return [...install].sort((a, b) => b.size - a.size);
+    }else{
+      return install;
+    }
+  }
 
   return (
     <div className="bg-gray-100 pb-10 ">
@@ -27,12 +39,26 @@ const Install = () => {
         <h2 className="font-bold text-[24px]">
           <span>({install.length})</span> Apps Found
         </h2>
-        <button className="btn btn-outline">Sort by</button>
+        <label className="form-control w-full max-w-xs">
+          <select
+            className="select select-bordered"
+            value={sortOrder}
+            onChange={(e) => setSortOrder(e.target.value)}
+          >
+            <option value="none">Sort by size</option>
+            <option value="size-asc">Low-&gt;High</option>
+            <option value="size-dsc">High-&gt;Low</option>
+          </select>
+        </label>
       </div>
 
       <div>
-        {install.map((ins) => (
-          <InstallCard ins={ins} key={ins.id}></InstallCard>
+        {sortedItem().map((ins) => (
+          <InstallCard
+            setInstall={setInstall}
+            ins={ins}
+            key={ins.id}
+          ></InstallCard>
         ))}
       </div>
     </div>

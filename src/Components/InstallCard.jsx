@@ -2,8 +2,18 @@ import React from "react";
 import downloadImg from "../assets/icon-downloads.png";
 import ratingsImg from "../assets/icon-ratings.png";
 
-const InstallCard = ({ ins }) => {
+const InstallCard = ({ ins, setInstall }) => {
   const { image, title, downloads, ratingAvg, size } = ins;
+
+
+  const removeInstall = (id) => {
+    const savedList = JSON.parse(localStorage.getItem("install")) || [];
+    const updatedList = savedList.filter((item) => item.id !== id);
+    localStorage.setItem("install", JSON.stringify(updatedList)); 
+    setInstall(updatedList); 
+  };
+
+
 
   return (
     <div className="max-w-[1280px] mx-auto md:mt-5 mt-4 px-4">
@@ -22,7 +32,7 @@ const InstallCard = ({ ins }) => {
               <div className="flex gap-4 mt-3">
                 <span className="flex items-center text-green-500 gap-2 font-semibold">
                   <img
-                    className="w-[16px] h-[16px]"
+                    className="min-w-[16px] h-[16px]"
                     src={downloadImg}
                     alt={title}
                   />
@@ -36,14 +46,19 @@ const InstallCard = ({ ins }) => {
                   />
                   <p>{ratingAvg}</p>
                 </span>
-                <span>
-                  <p className="font-semibold">{size}</p>
-                </span>
               </div>
             </div>
           </div>
-          <div className="flex  items-center justify-end ml-[900px]">
-            <button className="btn bg-[#00d390] text-white">Uninstall</button>
+          <div className="flex ml-[200px] items-center md:ml-[800px]">
+            <span>
+              <p className="font-bold text-[18px] mr-5">{size}MB</p>
+            </span>
+            <button
+              onClick={() => removeInstall(ins.id)}
+              className="btn flex-1 bg-[#00d390] text-white"
+            >
+              Uninstall
+            </button>
           </div>
         </div>
       </div>

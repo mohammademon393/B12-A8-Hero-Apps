@@ -27,11 +27,14 @@ const AppsDetails = () => {
       const exsitingList = JSON.parse(localStorage.getItem("install"));
       let updatedList = [];
       if (exsitingList) {
+        
         const isDublicat = exsitingList.some(a=> a.id === app.id)
         if (isDublicat) {
-          toast('not allowed')
+          toast('Allready installed !!');
+          return;
         }
         updatedList = [...exsitingList, app]
+        toast("Install sucessfully !!");
       }else{
         updatedList.push(app)
       }
