@@ -4,6 +4,33 @@ import downloadImg from "../assets/icon-downloads.png";
 import reviweImg from "../assets/icon-review.png";
 import rating from "../assets/icon-ratings.png";
 import { toast } from "react-toastify";
+import { BarChart, Bar, ResponsiveContainer, CartesianGrid, XAxis, YAxis, Tooltip } from "recharts";
+
+
+
+const data = [
+  {
+    name: "1 star",
+    count: 400000,
+  },
+  {
+    name: "2 star",
+    count: 500000,
+  },
+  {
+    name: "3 star",
+    count: 1000000,
+  },
+  {
+    name: "4 star",
+    count: 5000000,
+  },
+  {
+    name: "5 star",
+    count: 13100000,
+  },
+];
+
 
 const AppsDetails = () => {
   const data = useLoaderData();
@@ -20,7 +47,9 @@ const AppsDetails = () => {
     description,
     description2,
     size,
+    ratings,
   } = app;
+  
 
   const [isInstalled, setIsInstalled] = useState(false);
 
@@ -45,6 +74,11 @@ const AppsDetails = () => {
     toast("Installed successfully !!");
     setIsInstalled(true);
   };
+
+
+  // {
+  //   ratings.map(data => console.log(data))
+  // }
 
   return (
     <div className="max-w-[1280px] mx-auto py-10 p-5">
@@ -92,6 +126,23 @@ const AppsDetails = () => {
             {isInstalled ? "Installed" : `Install Now (${size}MB)`}
           </button>
         </div>
+      </div>
+
+      {/* chart */}
+      <div className="mt-10 flex justify-center">
+        <ResponsiveContainer width="90%" height={300}>
+          <BarChart
+            data={ratings}
+            layout="vertical"
+            margin={{ top: 20, right: 30, left: 80, bottom: 20 }}
+          >
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis type="number" />
+            <YAxis dataKey="name" type="category" />
+            <Tooltip />
+            <Bar dataKey="count" fill="#ff8811" radius={[0, 10, 10, 0]} />
+          </BarChart>
+        </ResponsiveContainer>
       </div>
 
       <div className="mt-10">
