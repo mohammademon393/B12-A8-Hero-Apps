@@ -20,7 +20,7 @@ const InstallCard = ({ ins, setInstall }) => {
       <div className="rounded-xl bg-base-100 shadow-sm h-[120px] mb-4 flex gap-4">
         <figure className="p-4">
           <img
-            className="w-[80px] h-[80px] rounded-xl"
+            className="min-w-[100px] h-[80px] rounded-xl"
             src={image}
             alt={title}
           />
@@ -32,7 +32,7 @@ const InstallCard = ({ ins, setInstall }) => {
               <div className="flex gap-4 mt-3">
                 <span className="flex items-center text-green-500 gap-2 font-semibold">
                   <img
-                    className="min-w-[16px] h-[16px]"
+                    className="w-[16px] h-[16px]"
                     src={downloadImg}
                     alt={title}
                   />
@@ -49,7 +49,7 @@ const InstallCard = ({ ins, setInstall }) => {
               </div>
             </div>
           </div>
-          <div className="flex ml-[200px] items-center md:ml-[800px]">
+          <div className="flex ml-[100px] items-center md:ml-[800px]">
             <span>
               <p className="font-bold text-[18px] mr-5">{size}MB</p>
             </span>
