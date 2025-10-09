@@ -107,7 +107,10 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="navbar-end">
-            <a className="rounded-md bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] btn text-white">
+            <a
+              href="https://github.com/mohammademon393?tab=repositories"
+              className="rounded-md bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] btn text-white"
+            >
               <FaGithub></FaGithub>
               Contribute
             </a>

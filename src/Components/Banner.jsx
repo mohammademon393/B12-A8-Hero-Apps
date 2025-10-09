@@ -21,14 +21,20 @@ const Banner = () => {
           ideas into digital experiences that truly make an impact.
         </p>
         <div className="mt-4 flex gap-4 justify-center">
-          <button className="btn border border-gray-400 bg-gray-100">
+          <a
+            href="https://play.google.com/store/games?device=windows&hl=en"
+            className="btn border border-gray-400 bg-gray-100"
+          >
             <FaGooglePlay></FaGooglePlay>
             Google Play
-          </button>
-          <button className="btn border border-gray-400 bg-gray-100">
+          </a>
+          <a
+            href="https://www.apple.com/app-store/"
+            className="btn border border-gray-400 bg-gray-100"
+          >
             <FaAppStore></FaAppStore>
             App Store
-          </button>
+          </a>
         </div>
 
         <div className="mt-14 m-5 md:ml-[300px]">
