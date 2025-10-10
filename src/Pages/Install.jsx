@@ -15,11 +15,11 @@ const Install = () => {
 
 
   const sortedItem =()=>{
-    if (sortOrder === "size-asc") {
-      return [...install].sort((a, b) => a.size - b.size);
-    }else if (sortOrder === "size-dsc") {
-      return [...install].sort((a, b) => b.size - a.size);
-    }else{
+    if (sortOrder === "downloads-asc") {
+      return [...install].sort((a, b) => a.downloads - b.downloads);
+    } else if (sortOrder === "downloads-dsc") {
+      return [...install].sort((a, b) => b.downloads - a.downloads);
+    } else {
       return install;
     }
   }
@@ -45,9 +45,9 @@ const Install = () => {
             value={sortOrder}
             onChange={(e) => setSortOrder(e.target.value)}
           >
-            <option value="none">Sort by size</option>
-            <option value="size-asc">Low-&gt;High</option>
-            <option value="size-dsc">High-&gt;Low</option>
+            <option value="none">Sort by downloads</option>
+            <option value="downloads-asc">Low-&gt;High</option>
+            <option value="downloads-dsc">High-&gt;Low</option>
           </select>
         </label>
       </div>

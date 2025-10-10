@@ -1,6 +1,7 @@
 import React from "react";
 import downloadImg from "../assets/icon-downloads.png";
 import ratingsImg from "../assets/icon-ratings.png";
+import { toast } from "react-toastify";
 
 const InstallCard = ({ ins, setInstall }) => {
   const { image, title, downloads, ratingAvg, size } = ins;
@@ -11,9 +12,8 @@ const InstallCard = ({ ins, setInstall }) => {
     const updatedList = savedList.filter((item) => item.id !== id);
     localStorage.setItem("install", JSON.stringify(updatedList)); 
     setInstall(updatedList); 
+    toast("App unstall sucssecfull")
   };
-
-
 
   return (
     <div className="max-w-[1280px] mx-auto md:mt-5 mt-4 px-4">
@@ -46,14 +46,13 @@ const InstallCard = ({ ins, setInstall }) => {
                   />
                   <p>{ratingAvg}</p>
                 </span>
+                <p className="font-semibold text-[16px] md:font-[500]">
+                  {size}MB
+                </p>
               </div>
             </div>
           </div>
-          <div className="md:flex justify-center ml-[100px] items-center md:ml-[800px] overflow-hidden">
-              <p className="font-semibold text-[18px] md:font-bold mr-2 md:mr-5">
-                {size}MB
-              </p>
-            
+          <div className="md:flex justify-center ml-[100px] items-center md:ml[400px] lg:ml-[830px] overflow-hidden">
             <button
               onClick={() => removeInstall(ins.id)}
               className="btn justify-end bg-[#00d390] text-white"

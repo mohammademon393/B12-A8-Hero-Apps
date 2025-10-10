@@ -6,32 +6,6 @@ import rating from "../assets/icon-ratings.png";
 import { toast } from "react-toastify";
 import { BarChart, Bar, ResponsiveContainer, CartesianGrid, XAxis, YAxis, Tooltip } from "recharts";
 
-
-
-const data = [
-  {
-    name: "1 star",
-    count: 400000,
-  },
-  {
-    name: "2 star",
-    count: 500000,
-  },
-  {
-    name: "3 star",
-    count: 1000000,
-  },
-  {
-    name: "4 star",
-    count: 5000000,
-  },
-  {
-    name: "5 star",
-    count: 13100000,
-  },
-];
-
-
 const AppsDetails = () => {
   const data = useLoaderData();
   const { id } = useParams();
@@ -71,14 +45,10 @@ const AppsDetails = () => {
 
     const updatedList = [...existingList, app];
     localStorage.setItem("install", JSON.stringify(updatedList));
-    toast("Installed successfully !!");
+    toast("App installed successfull !!");
     setIsInstalled(true);
   };
 
-
-  // {
-  //   ratings.map(data => console.log(data))
-  // }
 
   return (
     <div className="max-w-[1280px] mx-auto py-10 p-5">
@@ -95,7 +65,7 @@ const AppsDetails = () => {
           <span className="flex gap-2 font-semibold text-[20px]">
             Developed by <p className="text-purple-700">{companyName}</p>
           </span>
-
+          <div className="border border-dashed text-gray-400 w-full mt-3"></div>
           <div className="mt-6 flex gap-x-10">
             <span className="flex flex-col items-center">
               <img className="w-10 h-10" src={downloadImg} alt="coming soon" />
@@ -129,7 +99,8 @@ const AppsDetails = () => {
       </div>
 
       {/* chart */}
-      <div className="mt-10 flex justify-center">
+      <div className="mt-10 flex flex-col justify-center">
+        <h1 className="font-semibold text-2xl">Ratings</h1>
         <ResponsiveContainer width="90%" height={300}>
           <BarChart
             data={ratings}
@@ -144,6 +115,8 @@ const AppsDetails = () => {
           </BarChart>
         </ResponsiveContainer>
       </div>
+
+      <div className="border border-dashed text-gray-400 w-full mt-5 mb-[-20px]"></div>
 
       <div className="mt-10">
         <h3 className="text-[32px] font-semibold">Description</h3>

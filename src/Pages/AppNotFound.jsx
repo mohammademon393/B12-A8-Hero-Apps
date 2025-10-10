@@ -1,11 +1,12 @@
 import React from 'react';
 import errorImg from '../assets/App-Error.png';
+import { Link } from 'react-router';
 
 const AppNotFound = () => {
     return (
       <div className="bg-gray-100 p-10 flex flex-col items-center justify-center">
         <div className="max-w-[1280px] mx-auto text-center flex flex-col justify-center">
-          <div className='ml-[50px] md:ml-[200px]'>
+          <div className="ml-[50px] md:ml-[200px]">
             <img
               className=" w-[300px] h-[250px]"
               src={errorImg}
@@ -18,9 +19,12 @@ const AppNotFound = () => {
               The App you are requesting is not found on our system. please try
               another apps
             </p>
-            <button className="rounded-md bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] btn text-white mt-3">
-              Go Back
-            </button>
+            <Link
+              to={"/apps"}
+              className="rounded-md bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] btn text-white mt-3"
+            >
+              Show All Apps
+            </Link>
           </div>
         </div>
       </div>
