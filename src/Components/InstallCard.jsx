@@ -52,7 +52,7 @@ const InstallCard = ({ ins, setInstall }) => {
               </div>
             </div>
           </div>
-          <div className="md:flex justify-center ml-[100px] items-center md:ml[400px] lg:ml-[830px] overflow-hidden">
+          <div className="md:flex justify-center ml-[100px] items-center md:ml[400px] lg:ml-[750px] overflow-hidden">
             <button
               onClick={() => removeInstall(ins.id)}
               className="btn justify-end bg-[#00d390] text-white"
